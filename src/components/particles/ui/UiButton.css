@@ -1,0 +1,58 @@
+.ui-button {
+    @apply border border-transparent;
+    @apply focus:outline-none focus:ring-2 focus:ring-blue-300 dark:focus:ring-yellow-400;
+    @apply transition-all duration-200;
+}
+
+.ui-button-standard:not(:disabled) {
+    @apply bg-white text-gray-800 shadow-sm hover:shadow-md;
+    @apply dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700;
+}
+
+.ui-button-standard:disabled {
+    @apply bg-gray-100 text-gray-400;
+    @apply dark:bg-gray-900 dark:text-gray-600;
+}
+
+.ui-button-standard.active:not(:disabled), .ui-button-standard:active:not(:disabled) {
+    @apply bg-gray-100 transform scale-[0.98];
+    @apply dark:bg-gray-700;
+}
+
+.ui-button-trans:not(:disabled) {
+    @apply border border-gray-300 bg-white bg-opacity-90 text-gray-800
+    dark:bg-opacity-10 dark:border dark:border-gray-700 dark:text-white;
+    @apply hover:border-gray-400 dark:hover:border-gray-600;
+}
+
+.ui-button-trans.active:not(:disabled), .ui-button-trans:active:not(:disabled) {
+    @apply border-transparent dark:border-transparent transform scale-[0.98];
+}
+
+.ui-button-trans:disabled {
+    @apply text-gray-200 border-gray-200 bg-gray-200 bg-opacity-40 dark:text-gray-800 dark:bg-gray-700 dark:bg-opacity-40 dark:border-gray-800;
+}
+
+.ui-button.ui-shape-round {
+    @apply rounded-full;
+}
+
+.ui-button.ui-shape-normal {
+    @apply rounded-md;
+}
+
+.ui-button.ui-shape-left {
+    border-radius: 50% 10% 10% 50%;
+}
+
+.ui-button.ui-shape-right {
+    border-radius: 10% 50% 50% 10%;
+}
+
+.ui-button.ui-shape-up {
+    border-radius: 50% 50% 10% 10%;
+}
+
+.ui-button.ui-shape-down {
+    border-radius: 10% 10% 50% 50%;
+}
