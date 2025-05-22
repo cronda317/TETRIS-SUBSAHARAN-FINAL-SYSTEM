@@ -40,28 +40,8 @@ All tools require a minimum score to unlock and cost points to use. Once used, a
 - **State Management**: Redux Toolkit
 - **Styling**: Tailwind CSS with Neumorphism design
 - **Build Tool**: Next.js 14
-- **Language**: TypeScript
-- **Analytics**: React GA (Google Analytics)
+- **Language**: TypeScript, Python
 
-## 🏗 System Architecture
-
-### Component Structure
-
-The application follows a modular component-based architecture:
-
-- **Atoms**: Smallest reusable components (buttons, blocks, etc.)
-- **Molecules**: Combinations of atoms (grid, pieces, tools)
-- **Organisms**: Complex UI sections (controls, game engine)
-- **Templates**: Page layouts (desktop layout, mobile layout)
-
-### Game Engine
-
-The game engine is built with Redux for state management and follows these principles:
-
-1. **Game State**: Central Redux store handles all game state
-2. **Game Loop**: Ticker system for piece movement and game progression
-3. **Collision Detection**: Checks for valid piece positions
-4. **Rendering**: Pure component rendering based on state changes
 
 ### Data Flow
 
@@ -95,7 +75,7 @@ The game implements a unidirectional data flow:
 ### Prerequisites
 
 - Node.js (v16 or higher)
-- Yarn or npm
+- Ynpm
 
 ### Installation Steps
 2. Install dependencies:
