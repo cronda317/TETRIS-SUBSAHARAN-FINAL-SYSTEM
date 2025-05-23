@@ -34,24 +34,6 @@ The game includes three powerful tools to help players in challenging situations
 
 All tools require a minimum score to unlock and cost points to use. Once used, a tool becomes unavailable until you earn enough points again.
 
-## 🚀 Technology Stack
-
-- **Frontend Framework**: React 18
-- **State Management**: Redux Toolkit
-- **Styling**: Tailwind CSS with Neumorphism design
-- **Build Tool**: Next.js 14
-- **Language**: TypeScript, Python
-
-
-### Data Flow
-
-The game implements a unidirectional data flow:
-
-1. **User Input** → Captured by UI components
-2. **Dispatch** → Action sent to Redux store
-3. **Reducer** → State updated based on action
-4. **Render** → UI reflects updated state
-
 ## 📋 Controls
 
 ### Desktop
@@ -64,40 +46,5 @@ The game implements a unidirectional data flow:
 - **X**: Rotate clockwise
 - **C**: Hold piece
 - **Escape**: Pause game
-
-### Mobile
-
-- **Left side buttons**: Movement controls
-- **Right side buttons**: Rotation and special actions
-
-## 💻 Installation and Setup
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- Ynpm
-
-### Installation Steps
-2. Install dependencies:
-   ```bash
-   npm install
-
-3. Start the development server:
-   ```bash
-   npm run dev
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to play the game
-
-### Building for Production
-
-```bash
-npm run build
-
-## 🧪 Testing
-
-Run the test suite with:
-
-```bash
-npm run test
 
 Made with ❤️ by Ronda
